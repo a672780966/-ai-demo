@@ -77,11 +77,11 @@ function CustomerServicePage() {
         <p className="text-sm text-muted-foreground mt-1">智能客服对话管理与监控</p>
       </div>
 
+      <CustomerServicePanel />
       <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
-        <CustomerServicePanel />
         <RagMonitor />
+        <AgentMonitor />
       </div>
-      <AgentMonitor />
     </div>
   )
 }
