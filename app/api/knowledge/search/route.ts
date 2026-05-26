@@ -110,8 +110,8 @@ export async function POST(req: Request) {
       title: item.title,
       content: `${item.question}｜${item.answer}`,
       score,
-      source: 'data/knowledge/qualification.json',
-      updated_at: '2026-05-26T00:00:00Z',
+      source: '模拟政策库',
+      updated_at: '2026-05-26',
       risk_level: item.risk_level,
     }))
 
